@@ -1,7 +1,7 @@
 library(tidyverse)
 library(biomaRt)
 library(ggplot2)
-WRITE <- TRUE
+WRITE <- FALSE
 
 #Load Data
 dataPath <- '~/tabori/data/mutation/raw_data/santiago_pipeline/vcf_annotation/'
